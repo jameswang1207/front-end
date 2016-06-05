@@ -1,0 +1,13 @@
+{
+  "name": "login",
+  "states":[
+    ["login","/{company}","login", "login"]
+  ],
+  "resources": {
+    "adminAgents": "/api/login/list"
+  }
+}
+//status[0] status
+//status[1] url 
+//status[2] moduleName
+//status[3] controller

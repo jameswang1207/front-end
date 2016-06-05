@@ -1,0 +1,26 @@
+{
+  "name": "front-end",
+  "description": "front-end v0.0.1",
+  "homepage": "https://github.com/tnajdek/angular-requirejs-seed",
+  "authors": [
+    "jameswangAugmentum <1983297642@qq.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "license": "front-end",
+  "keywords": [
+    "front-end"
+  ],
+  "dependencies": {
+    "angular-scenario": "~1.2.1",
+    "angular-mocks": "~1.2.1",
+    "html5-boilerplate": "~4.3.0",
+    "underscore": "~1.7.0",
+    "ng-file-upload": "~2.1.1",
+    "ng-file-upload-shim": "~2.1.1"
+  }
+}

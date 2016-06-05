@@ -1,0 +1,61 @@
+$MicrosoftYaHei : '微软雅黑','Microsoft YaHei','\5FAE\8F6F\96C5\9ED1';
+$SimSun : '宋体' 'SimSun','\5B8B\4F53';
+@mixin font-style($font-size,$font-family,$color,$condition){
+   font-size: $font-size;
+   font-family: $font-family;
+   color:$color;
+   font-weight: if($condition,bolder,inherit);
+} 
+.guide-login{
+	height: 100%;
+	width: 100%;
+	background-color: #343643;
+	fieldset{
+		font-size: 0;
+	}
+	.title{
+		text-align: center;
+		padding-top: 50px;
+		font-size: 0;
+		.content{
+			padding-bottom: 30px;
+		    @include font-style(20px,$MicrosoftYaHei,#FFF,true);
+		}
+	}
+	.logo{
+		padding-top: 20px;
+		padding-bottom: 50px;
+        span{
+        	width: 50px;
+        	height: 50px;
+        	display: block;
+        	margin: 0 auto;
+        	background-image: url(/images/session_focus@2x.png);
+        }
+	}
+	.from{
+		.from-input{
+			height: 50px;
+			margin-bottom:20px; 
+			input{
+				height: 100%;
+				width:80%;
+				display: block;
+                margin: 0 auto;
+                background-color: #474955;
+                border:none;
+                border-radius: 4px;
+                outline: none;
+                text-align: center;
+                @include font-style(14px,$MicrosoftYaHei,#FFF,false);
+			}
+			.submit{
+				background-color: #0BD38A;
+				@include font-style(16px,$MicrosoftYaHei,#FFF,false);
+				&:active,&:focus{
+					background-color: #0BD38A;
+				}
+			}
+		}
+	}
+}

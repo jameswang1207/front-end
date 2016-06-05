@@ -1,0 +1,36 @@
+{
+  "name": "alogs",
+  "version": "0.1.4",
+  "homepage": "https://github.com/fex-team/alogs",
+  "description": "The front-end log collection module management",
+  "authors": [
+    "Zswang <wjhu111@21cn.com>"
+  ],
+  "main": "alog.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "log",
+    "analytic",
+    "tracking"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.1.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.4",
+    "commit": "4a34a76ed2ebf1d723c0d83f0815f3f5c9528a14"
+  },
+  "_source": "git://github.com/fex-team/alogs.git",
+  "_target": "0.1.4",
+  "_originalSource": "alogs"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "lib.flexible",
+  "homepage": "https://github.com/amfe/lib.flexible",
+  "_release": "93c785d7c2",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "93c785d7c27103ca34b1269f654e2576540f5761"
+  },
+  "_source": "git://github.com/amfe/lib.flexible.git",
+  "_target": "*",
+  "_originalSource": "amfe/lib.flexible",
+  "_direct": true
+}

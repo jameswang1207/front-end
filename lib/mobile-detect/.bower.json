@@ -1,0 +1,41 @@
+{
+  "name": "mobile-detect",
+  "version": "0.4.3",
+  "description": "Device detection (phone, tablet, desktop, mobile grade, os, versions)",
+  "homepage": "http://hgoebl.github.io/mobile-detect.js/",
+  "keywords": [
+    "useragent",
+    "mobile",
+    "phone",
+    "tablet",
+    "detect",
+    "device",
+    "browser",
+    "version",
+    "mobilegrade",
+    "sniff"
+  ],
+  "authors": [
+    "Heinrich Goebl <hgoebl@goebl.com>"
+  ],
+  "license": "MIT",
+  "main": "mobile-detect.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "tests",
+    "generate",
+    "Gruntfile.js",
+    "package.json",
+    "*.iml"
+  ],
+  "_release": "0.4.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.4.3",
+    "commit": "ca137f81bbc839c8d52f63bcea94ede06a90db6a"
+  },
+  "_source": "git://github.com/hgoebl/mobile-detect.js.git",
+  "_target": "0.4.3",
+  "_originalSource": "mobile-detect"
+}

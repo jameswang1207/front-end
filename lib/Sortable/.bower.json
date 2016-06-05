@@ -1,0 +1,36 @@
+{
+  "name": "Sortable",
+  "main": "Sortable.js",
+  "version": "0.7.1",
+  "homepage": "http://rubaxa.github.io/Sortable/",
+  "authors": [
+    "RubaXa <ibnRubaXa@gmail.com>"
+  ],
+  "description": "Minimalist library for reorderable drag-and-drop lists on modern browsers and touch devices. No jQuery.",
+  "keywords": [
+    "sortable",
+    "reorder",
+    "list",
+    "html5",
+    "drag",
+    "and",
+    "drop",
+    "dnd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.7.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.7.1",
+    "commit": "86dfdebd3054d2b58f92a5b05e19bc4c02129240"
+  },
+  "_source": "git://github.com/RubaXa/Sortable.git",
+  "_target": "0.7.1",
+  "_originalSource": "Sortable"
+}

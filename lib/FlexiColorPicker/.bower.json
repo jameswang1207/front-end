@@ -1,0 +1,14 @@
+{
+  "name": "FlexiColorPicker",
+  "homepage": "https://github.com/DavidDurman/FlexiColorPicker",
+  "_release": "ec614a74e8",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "ec614a74e808a39b51a9f6883476aad6e77066f8"
+  },
+  "_source": "https://github.com/DavidDurman/FlexiColorPicker.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/DavidDurman/FlexiColorPicker.git",
+  "_direct": true
+}
