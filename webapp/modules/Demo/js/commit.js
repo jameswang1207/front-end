@@ -7,7 +7,7 @@ new Vue({
 });
 
 //table
-new Vue({
+var table = new Vue({
   el:'.table',
   data:{
     datas:[
@@ -33,8 +33,7 @@ new Vue({
     styleObject:{
       color:'red',
       fontSize:'20px'
-    },
-    ok : false
+    }
   },
   methods:{
     remessage : function(){
@@ -47,4 +46,58 @@ new Vue({
       return this.message + "hheehhe"
     }
   }
+});
+
+
+//table
+new Vue({
+  el:'.vu-show',
+  data:{
+    ok : true,
+    show : true
+  }
+});
+
+//event
+//========================
+//enter
+//tab
+//delete
+//esc
+//space
+//up
+//down
+//left
+//right
+//========================
+new Vue({
+  el:'.event',
+  data:{
+    message: 'event!',
+    choices:[]
+  },
+  methods:{
+    say : function(ele,_event){
+      if(this.choices[0]){
+        console.log(this.choices);
+      }else{
+        console.log("default");
+      }
+    },
+    submit : function(){
+      console.log("key");
+    },
+    keyCode : function(){
+    console.log('13');
+    }
+  },
+});
+
+var MyComponent = Vue.extend({
+  template: '<div>A custom component!</div>'
+});
+
+Vue.component('my-component', MyComponent);
+new Vue({
+  el:'#example'
 });

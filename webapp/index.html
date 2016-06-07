@@ -30,7 +30,7 @@
     <hr>
     <div class="table">
     	<div v-for="data in datas">
-    		{{data.text}}
+    		{{$key}}-{{data.text}}-{{$index}}
     	</div>
 	</div>
     <hr>
@@ -42,8 +42,34 @@
   	<button @click="remessage">click</button>
   	</div>
     <hr>
-    <h1 v-show="false">Yes</h1>
+    <div class="vu-show">
+      <template v-if="ok">
+        <h1>Title</h1>
+        <p>Paragraph 1</p>
+        <p>Paragraph 2</p>
+         <span v-for="n in 10">{{ n }} </span>
+      </template>
+      <span v-show="show">Hello!</span>
+    </div>
     <hr>
+    <div class="event">
+      <span>{{message}}</span>
+      <span @click="say(this,$event)">click</span>
+      <input @keyup.enter="submit"/><br/>
+      <input @keyup.13="keyCode">
+      <hr>
+      <input type="checkbox" id="checkbox"  value="Jack" v-model="choices">
+      <label for="checkbox">jack</label>
+      <input type="checkbox" id="checkbox1"  value="tom" v-model="choices">
+      <label for="checkbox1">tom</label>
+      <input type="checkbox" id="checkbox2"  value="james" v-model="choices">
+      <label for="checkbox2">james</label>
+    </div>
+    <hr>
+    
+    <div id="example">
+      <my-component></my-component>
+    </div>
     <script src="modules/Demo/js/commit.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html>
