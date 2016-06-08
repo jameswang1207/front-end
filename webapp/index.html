@@ -1,75 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>this is mobile page</title>
-    <style>
-      #demo {
-        font-family: 'Helvetica', Arial, sans-serif;
-      }
-      a {
-        text-decoration: none;
-        color: #f66;
-      }
-      li {
-        line-height: 1.5em;
-        margin-bottom: 20px;
-      }
-      .author, .date {
-        font-weight: bold;
-      }
-    </style>
-    <script src="lib/vue.min.js" type="text/javascript" charset="utf-8" async defer></script>
-    <script src="lib/jquery.min.js" type="text/javascript" charset="utf-8" async defer></script>
-</head>
-<body>
-	<div class="app">
-	  <p>{{ message }}</p>
-	  <input v-model="message">
-	</div>
-    <hr>
-    <div class="table">
-    	<div v-for="data in datas">
-    		{{$key}}-{{data.text}}-{{$index}}
-    	</div>
-	</div>
-    <hr>
-    <div class="user-input">
-  	<div v-bind:class="{ 'class-a': classA, 'class-b': classB }" v-bind:style="styleObject">
-  		{{message}},
-  		{{b}}
-  	</div>
-  	<button @click="remessage">click</button>
-  	</div>
-    <hr>
-    <div class="vu-show">
-      <template v-if="ok">
-        <h1>Title</h1>
-        <p>Paragraph 1</p>
-        <p>Paragraph 2</p>
-         <span v-for="n in 10">{{ n }} </span>
-      </template>
-      <span v-show="show">Hello!</span>
-    </div>
-    <hr>
-    <div class="event">
-      <span>{{message}}</span>
-      <span @click="say(this,$event)">click</span>
-      <input @keyup.enter="submit"/><br/>
-      <input @keyup.13="keyCode">
-      <hr>
-      <input type="checkbox" id="checkbox"  value="Jack" v-model="choices">
-      <label for="checkbox">jack</label>
-      <input type="checkbox" id="checkbox1"  value="tom" v-model="choices">
-      <label for="checkbox1">tom</label>
-      <input type="checkbox" id="checkbox2"  value="james" v-model="choices">
-      <label for="checkbox2">james</label>
-    </div>
-    <hr>
-    
-    <div id="example">
-      <my-component></my-component>
-    </div>
-    <script src="modules/Demo/js/commit.js" type="text/javascript" charset="utf-8" async defer></script>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Vue.js HN Clone</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <link rel="icon" href="static/logo.png" type="image/x-icon">
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="static/build.js"></script>
+  </body>
 </html>
