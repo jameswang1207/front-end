@@ -2,7 +2,7 @@
   "name": "vue-attitude",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "jameswangAugmentum <1983297642@qq.com>",
+  "author": "jameswang <jameswang@augmentum.com.cn>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
