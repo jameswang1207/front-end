@@ -12,6 +12,7 @@
       </span>
     </div>
     <!-- main view -->
+    <!-- 路由外链 -->
     <router-view
       class="view"
       keep-alive

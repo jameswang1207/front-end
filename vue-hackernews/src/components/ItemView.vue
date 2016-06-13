@@ -48,9 +48,7 @@ export default {
           item,
           // the final resolved data can further contain Promises
           comments: store.fetchItems(item.kids),
-          pollOptions: item.type === 'poll'
-            ? store.fetchItems(item.parts)
-            : null
+          pollOptions: item.type === 'poll'? store.fetchItems(item.parts): null
         }
       })
     }

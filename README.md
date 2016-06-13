@@ -17,6 +17,10 @@ server {
         alias /usr/share/nginx/html/front-end/webapp;
     }
 
+    location /vue {
+        alias /usr/share/nginx/html/front-end/vue-hackernews;
+    }
+
     location ~ .*\.(php|php5)?$ {
         fastcgi_pass unix:/var/run/php5-fpm.sock;
         # or fastcgi_pass   127.0.0.1:9000;

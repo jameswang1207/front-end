@@ -7,6 +7,7 @@ export function domain (url) {
 
 export function fromNow (time) {
   const between = Date.now() / 1000 - Number(time)
+  //其实是一种利用符号进行的类型转换,转换成数字类型
   if (between < 3600) {
     return pluralize(~~(between / 60), ' minute')
   } else if (between < 86400) {
@@ -17,9 +18,9 @@ export function fromNow (time) {
 }
 
 function pluralize(time, label) {
-    if (time === 1) {
-        return time + label
-    }
+  if (time === 1) {
+    return time + label
+  }
 
-    return time + label + 's';
+  return time + label + 's';
 }
