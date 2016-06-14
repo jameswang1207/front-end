@@ -1,11 +1,14 @@
 var webpack = require('webpack')
-
+var path = require('path')
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: './static',
-    publicPath: '/static/',
-    filename: 'build.js'
+    // path: './static',
+    // publicPath: '/static/',
+    // filename: 'build.js'
+    path: path.resolve(__dirname, "static"),
+    publicPath: "/static/",
+    filename: "build.js"
   },
   module: {
     // avoid webpack trying to shim process

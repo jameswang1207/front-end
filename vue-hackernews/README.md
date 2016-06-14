@@ -8,6 +8,9 @@ The build setup uses [Webpack](http://webpack.github.io/) and the [vue-loader](h
 
 If you are using SublimeText you can get proper syntax highlighting for `*.vue` files with [vue-syntax-highlight](https://github.com/vuejs/vue-syntax-highlight).
 
+#webpack 小坑
+因为web pack将build.js生成在内存中，只有经过web-dev-server的服务才能够获取到他
+
 ### Building
 node v5.11.1
 

@@ -10,7 +10,6 @@ const storiesPerPage = store.storiesPerPage = 30
 let topStoryIds = []
 
 export default store
-
 /**
  * Subscribe to real time updates of the top 100 stories,
  * and cache the IDs locally.
