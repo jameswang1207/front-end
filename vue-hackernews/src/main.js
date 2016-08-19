@@ -14,7 +14,7 @@ Vue.filter('fromNow', fromNow)
 Vue.filter('domain', domain)
 //创建一个路由器实例,创建实例时可以传入配置参数进行定制
 
-var router = new Router()
+var router = new Router({hashbang:false})
 
 //每条路由规则应该映射到一个组件。这里的“组件”可以是一个使用 Vue.extend
 //创建的组件构造函数，也可以是一个组件选项对象。

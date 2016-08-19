@@ -1,7 +1,6 @@
 <template>
   <div class="news-view" :class="{ loading: !items.length }">
     <!-- item list -->
-    <div>ffkfDDDDDccdddddd</div>
     <item
       v-for="item in items"
       :item="item"

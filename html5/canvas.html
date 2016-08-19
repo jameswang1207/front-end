@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style type="text/css" media="screen">
+  body{
+  	margin: 0;
+  	padding: 0;
+  }
+
+  #canvas{
+  	margin: 0 auto;
+  	display: block;
+  	height: 400px;
+  	width: 500px;
+  }	
+</style>
+<body>
+	<canvas id="canvas">
+		
+	</canvas>
+</body>
+<script type="text/javascript" charset="utf-8" async defer>
+	var canvas = document.getElementById("canvas");
+	var image = new Image();
+
+	window.onload = function(){
+		console.log(image);
+		if(canvas && canvas.getContext('2d')){
+	        var context =  canvas.getContext('2d');
+	        image.src = "../images/btn_dropDown.png"
+	        image.onload = function () {
+                context.drawImage(image, 0, 0);
+	        }
+		}
+	};
+</script>
+</html>
