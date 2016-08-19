@@ -85,7 +85,7 @@ export default {
 
 <style lang="stylus">
 .news-view
-  padding-left 5px
+  padding-left 10px
   padding-right 15px
   &.loading:before
     content "Loading..."

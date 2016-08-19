@@ -5,6 +5,7 @@ import App from './components/App.vue'
 import NewsView from './components/NewsView.vue'
 import ItemView from './components/ItemView.vue'
 import UserView from './components/UserView.vue'
+import LoginView from './components/LoginView.vue'
 
 // install router
 Vue.use(Router)
@@ -27,6 +28,9 @@ router.map({
   },
   '/item/:id': {
     component: ItemView
+  },
+  '/login':{
+    component: LoginView
   }
 })
 
