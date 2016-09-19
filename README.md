@@ -1,6 +1,9 @@
 #解决Ubuntu下Sublime Text 3无法输入中文
 http://www.jianshu.com/p/bf05fb3a4709
 
+#前段提交文本的方式
+http://yunzhu.iteye.com/blog/2177923
+
 #Linux公社资源站下载
 - http://linux.linuxidc.com/
 - username  an password : www.linuxidc.com
